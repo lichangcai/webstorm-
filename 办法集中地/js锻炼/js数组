@@ -1,0 +1,9 @@
+JavaScript 数组
+下面的代码创建名为 cars 的数组：
+var cars=new Array();
+cars[0]="Audi";
+cars[1]="BMW";
+cars[2]="Volvo";
+
+数组下标是基于零的，所以第一个项目是 [0]，第二个是 [1]，以此类推。
+您将在本教程稍后的章节中学到更多关于数组的知识。
