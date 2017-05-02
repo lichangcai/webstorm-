@@ -1,0 +1,5 @@
+首先得有自己的文件夹，cd进入那里，
+2,express -e 项目名称
+3npm install(这步是将项目跑起来)
+3.node bin/www(这步是实践那样)
+4.获取本地局域网的ip(ifconfig)

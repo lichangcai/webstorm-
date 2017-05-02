@@ -1,0 +1,23 @@
+1.首先创建一个文件：方法如命令行示：madir 文件名;
+示例(mkdir jingyan)
+2.进入文件名那里：命令行如下：cd 文件名字   回车;
+示例（cd jingyan）
+3克隆文件下来：git clone 加上文件地址；这里就将文件克隆下来到自己设定的目录了;
+示例（git clone  git@file.5ftech.com:/mnt/opt/git/traing/webTraining.git）
+注释： git@file.5ftech.com:/mnt/opt/git/traing/webTraining.git这是一个git的地址
+4.进入解压的文件那里cd 解压的文件名称
+示例： cd webtraining/
+5:然后查看解压支流来看，（git status）
+此处应该去修改一下那个解压出来的文件夹里的内容。
+再使用git status命令行;然后就会提示有红色字体出来，提示你修改了内容，然后修改后就再次添加进去，
+6：使用git add *添加
+7:使用git add * 后，按回车键再次输入命令行git config --global user.email"1634319860@qq.com"
+这句话是告知别人你已经添加了文档，
+7：使用命令行来查看文本内容git commit -m "fixe"这里就会出现了你修改的文档的具体情况;
+8 git push origin master(这句命令行是直接将你的修改后的数据直接再次push上去这个地址 git@file.5ftech.com:/mnt/opt/git/traing/webTraining.git)上面；
+9：git pull origin master (这句话命令行是直接下拉数据，)`
+10.git log是查看是谁修改的
+
+
+
+

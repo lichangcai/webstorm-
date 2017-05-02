@@ -1,0 +1,3 @@
+直接是用命令行sudo npm install express -g(意思就是直接是使用全局去创建安装一个express的环境)
+2.sudo npm install express-generator -g(这个也是一个安装的环境需要的，需要操作完上面的那个部分就可以进
+行这一步操作的)

@@ -1,0 +1,1 @@
+先输入网址https://nodejs.org/en/是直接进去那个nodejs的官网的，让然后获取到那个下载的页面的，然后找到这个目录Installing Node.js via package manager（）点击进去。然后打开电脑的终端，shift+alt+t输入这个命令行curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -，解压完成后再输入另外一个命令行：sudo apt-get install -y nodejs，这样两部操作完成后就基本安装完成了那个nodejs，如果想要查看是否安装到的话，那就直接输入命令行：node -v点击回车键就可以出现结果了，如果想要查看版本号打的话之接输入那个npm -v,就可以了，
